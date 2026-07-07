@@ -1,6 +1,4 @@
-bord = ["O","X","X","X","O","X","X","X","O"]
-corrent_name = "gad"
-corrent_user = "X"
+
 
 
 def Column_check():
