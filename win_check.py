@@ -1,22 +1,19 @@
-from main import bord,sing_1,sing_2,user_1,user_2
+
 
 
 def Column_check():
-    if (sing_1 == bord[0] and sing_1 == bord[3] and sing_1 == bord[6]) or (sing_1 == bord[1] and sing_1 == bord[4] and sing_1 == bord[7]) or ( sing_1== bord[2] and sing_1 == bord[5] and sing_1 == bord[8]):
+    if (corrent_user == bord[0] and corrent_user == bord[3] and corrent_user == bord[6]) or (corrent_user== bord[1] and corrent_user == bord[4] and corrent_user == bord[7]) or ( corrent_user == bord[2] and corrent_user == bord[5] and corrent_user == bord[8]):
         game_running = False
-        return f"{user_1} win Column is {sing_1} ,Congratulations!! "
-    elif (sing_2 == bord[0] and sing_2 == bord[3] and sing_2 == bord[6]) or (sing_2 == bord[1] and sing_2 == bord[4] and sing_2 == bord[7]) or ( sing_2== bord[2] and sing_2 == bord[5] and sing_2 == bord[8]):
+        return f"{corrent_name} win Column is {corrent_user} ,Congratulations!! "
+    else:
+        return True
+
+def Diagonal_check():
+    if (corrent_user == bord[0] and corrent_user == bord[4] and corrent_user == bord[8]) or (corrent_user == bord[2] and corrent_user == bord[4] and corrent_user == bord[6]):
         game_running = False
-        return f"{user_2} win Column is {sing_2} ,Congratulations!! "
+        return f"{corrent_name} win Diagonal is {corrent_user} ,Congratulations!! "
     else:
         return True
     
-def Diagonal_check():
-    if (sing_1 == bord[0] and sing_1 == bord[4] and sing_1 == bord[8]) or (sing_1 == bord[2] and sing_1 == bord[4] and sing_1 == bord[6]):
-        game_running = False
-        return f"{user_1} win Diagonal is {sing_1} ,Congratulations!! "
-    elif (sing_2 == bord[0] and sing_2 == bord[4] and sing_2 == bord[8]) or (sing_2 == bord[2] and sing_2 == bord[4] and sing_2 == bord[6]):
-        game_running = False
-        return f"{user_2} win Diagonal is {sing_2} ,Congratulations!! "
-    else:
-        return True
+def main_check():
+    pass    
