@@ -1,10 +1,5 @@
-sing_1 = "X"
-sing_2 = "O"
-user_1 = "gad"
-user_2 = "chaim"
-bord = ["X","O","O"
-        ,"X","X","X"
-        ,"O","X","X"]
+from main import bord,sing_1,sing_2,user_1,user_2
+
 
 def Column_check():
     if (sing_1 == bord[0] and sing_1 == bord[3] and sing_1 == bord[6]) or (sing_1 == bord[1] and sing_1 == bord[4] and sing_1 == bord[7]) or ( sing_1== bord[2] and sing_1 == bord[5] and sing_1 == bord[8]):
