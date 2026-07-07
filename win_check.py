@@ -20,3 +20,6 @@ def Diagonal_check():
         return f"{user_2} win Diagonal is {sing_2} ,Congratulations!! "
     else:
         return True
+    
+def main_check():
+    pass    
