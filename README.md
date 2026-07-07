@@ -1,5 +1,5 @@
 # tick-tack-tow
-!(https://d3m9l0v76dty0.cloudfront.net/system/photos/13845402/large/91137ce1dc707fd21c31732899b7b783.jpg)
+(https://d3m9l0v76dty0.cloudfront.net/system/photos/13845402/large/91137ce1dc707fd21c31732899b7b783.jpg)
 
 ## Game Rules - חוקי המשחק
 * The game is played on a 3*3 board
