@@ -52,7 +52,9 @@ python main.py
 
 ## Current Key Tasks - משימות מרכזיות  נוכחיות
 
-* **Chaim** - Team management and general development - done
-* **Gad** - Building the game board - done
-* **Yisrael & Meir** - Requesting player names and selecting a marker -done
-* **Yehoshua** - README editing -done
+* **Chaim** - Checks for placement option,
+If not - re-request
+If yes (after creating Gad and Israel's functions) the game is over, message to the player
+* **Gad** - Creates a function that checks for three in a row and three in a diagonal
+* **Yisrael & Meir** - Creates a three-in-a-row test function
+* **Yehoshua** - README editing 
