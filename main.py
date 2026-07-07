@@ -43,4 +43,4 @@ while game_running:
                     corrent_name = user_1
                     time_of_run += 1
             print(
-                f"  {bord[0]} | {bord[1]} | {bord[2]}  \n-----------\n  {bord[3]} | {bord[4]} | {bord[5]}  \n-----------\n  {bord[6]} | {bord[7]} | {bord[8]}")
+                f" {bord[0]}  |  {bord[1]}  |  {bord[2]}  \n----|----|----\n  {bord[3]}  |  {bord[4]}  |  {bord[5]}  \n----|----|----\n  {bord[6]}  |  {bord[7]}  |  {bord[8]}")
