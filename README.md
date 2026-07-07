@@ -43,6 +43,9 @@ python main.py
 * Display board
 * Select a slot
 * Display an updated board after selection
+* Check for placement possibility in the selected location
+* Check three in a row / column / diagonal
+* If yes - play victory message If not - draw message
 
 ## Developers - מפתחים
 * Chaim
@@ -53,8 +56,8 @@ python main.py
 ## Current Key Tasks - משימות מרכזיות  נוכחיות
 
 * **Chaim** - Checks for placement option,
-If not - re-request
-If yes (after creating Gad and Israel's functions) the game is over, message to the player
-* **Gad** - Creates a function that checks for three in a row and three in a diagonal
-* **Yisrael & Meir** - Creates a three-in-a-row test function
-* **Yehoshua** - README editing 
+If not - re-request 
+If yes (after creating Gad and Israel's functions) the game is over, message to the player - done
+* **Gad** - Creates a function that checks for three in a row and three in a diagonal -done
+* **Yisrael & Meir** - Creates a three-in-a-row test function -done
+* **Yehoshua** - README editing Code and spell check - done
