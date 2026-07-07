@@ -1,4 +1,4 @@
-from tick_tack import main_check
+from win_check import main_check
 print("welcome to tick tack tow")
 user_1 = input("first player enter your username ")
 user_2=input("second player enter your username ")
