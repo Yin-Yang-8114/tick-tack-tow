@@ -38,12 +38,13 @@ python main.py
 
 
 ## Existing features - תכונות קיימות
-* Request player names and display them throughout the game
+* Request 2 player names and display them throughout the game
 * Set a marker for each player
 * Display board
 * Select a slot
 * Display an updated board after selection
 * Check for placement possibility in the selected location
+* When a player places a legal placement and there is no win, the turn passes to the other player
 * Check three in a row / column / diagonal
 * If yes - play victory message If not - draw message
 
@@ -55,9 +56,7 @@ python main.py
 
 ## Current Key Tasks - משימות מרכזיות  נוכחיות
 
-* **Chaim** - Checks for placement option,
-If not - re-request 
-If yes (after creating Gad and Israel's functions) the game is over, message to the player - done
-* **Gad** - Creates a function that checks for three in a row and three in a diagonal -done
-* **Yisrael & Meir** - Creates a three-in-a-row test function -done
-* **Yehoshua** - README editing Code and spell check - done
+* **Chaim** - Validation testing
+* **Gad** - Head of development and testing team for two usernames
+* **Yisrael  Meir** - Checking to make sure the player has chosen a number
+* **Yehoshua** - README editing Code and spell check , Validation testing
