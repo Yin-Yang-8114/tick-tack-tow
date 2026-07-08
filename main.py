@@ -1,11 +1,8 @@
 from win_check import main_check
+from config import sing_plyer_1,sing_plyer_2,user_1,user_2
 print("welcome to tick tack tow")
-user_1 = input("first player enter your username ")
-user_2=input("second player enter your username ")
 
-sing_1 = "X"
-sing_2 = "O"
-corrent_user = sing_1
+corrent_user = sing_plyer_1
 corrent_name = user_1
 
 bord = ["","","","","","","","",""]
@@ -26,20 +23,20 @@ while game_running:
             print("this number is already taken")
         else:
             bord[choice] = corrent_user
-            if corrent_user == sing_1:
+            if corrent_user == sing_plyer_1:
                 bord[choice] = corrent_user
                 if  main_check(corrent_name, corrent_user,bord):
                     game_running = False
                 else:
                     corrent_name = user_2
-                    corrent_user = sing_2
+                    corrent_user = sing_plyer_2
                     time_of_run +=1
             else:
                 bord[choice] = corrent_user
                 if   main_check(corrent_name, corrent_user,bord):
                     game_running = False
                 else:
-                    corrent_user = sing_1
+                    corrent_user = sing_plyer_1
                     corrent_name = user_1
                     time_of_run += 1
             print(
