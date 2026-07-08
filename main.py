@@ -17,9 +17,7 @@ while game_running:
     if time_of_run >= 9:
         game_running = False
         print("drow")
-    else:
-        choice = int(input(f'hi {corrent_name} please choose your please 0-8 '))
-        if bord[choice] != "":
+
             print("this number is already taken")
         else:
             bord[choice] = corrent_user
