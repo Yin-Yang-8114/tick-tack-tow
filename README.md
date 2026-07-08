@@ -9,6 +9,9 @@
 * The first player to get 3 of their markers in a row (horizontally, vertically or diagonally) wins the game.
 * If all 9 squares are filled and no player has accumulated 3 markers in a row, the game ends in a draw.
 
+## Game setup
+* Create a configuration file - which has username 1 and its marker (now defined as a dummy value X) username 2 (now defined as a dummy value O). File checks column, row and diagonal which are TRUE. As soon as we want to stop, we must update the file
+
 ## Running the game - הרצת המשחק
 
 To start the game, run the main Python script from your terminal:
@@ -38,7 +41,6 @@ python main.py
 
 
 ## Existing features - תכונות קיימות
-* Request 2 player names and display them throughout the game
 * Set a marker for each player
 * Display board
 * Select a slot
@@ -47,6 +49,7 @@ python main.py
 * When a player places a legal placement and there is no win, the turn passes to the other player
 * Check three in a row / column / diagonal
 * If yes - play victory message If not - draw message
+* 
 
 ## Developers - מפתחים
 * Chaim
